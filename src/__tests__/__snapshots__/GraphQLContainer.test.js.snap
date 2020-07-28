@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphQLContainer renders error message without crashing when error occurred without crashing 1`] = `
+<div>
+  <h3>
+    データ取得エラー
+  </h3>
+  <h5>
+    エラーが発生しました。ページをリロードしてください。
+  </h5>
+  <h5>
+    事象が改善しない場合は、管理者にお問い合わせください。
+  </h5>
+</div>
+`;
+
+exports[`GraphQLContainer renders message 'No Data' without crashing if typename is wrong 1`] = `
+<div>
+  <h5>
+    データが見つかりません。
+  </h5>
+</div>
+`;
+
+exports[`GraphQLContainer renders message 'No Data' without crashing when query target not found 1`] = `
+<div>
+  <h5>
+    データが見つかりません。
+  </h5>
+</div>
+`;

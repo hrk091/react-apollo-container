@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GraphQLInfiniteScroll renders error message without crashing when error occurred 1`] = `
+<div>
+  <h3>
+    データ取得エラー
+  </h3>
+  <h5>
+    エラーが発生しました。ページをリロードしてください。
+  </h5>
+  <h5>
+    事象が改善しない場合は、管理者にお問い合わせください。
+  </h5>
+</div>
+`;
